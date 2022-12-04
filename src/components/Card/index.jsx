@@ -2,6 +2,7 @@ import React from 'react'
 import { CardContainer, Content, Price } from './styles'
 import desktopImg from '../../assets/images/image-product-desktop.jpg'
 import mobileImg from '../../assets/images/image-product-mobile.jpg'
+import cartIcon from '../../assets/images/icon-cart.svg'
 export const Card = () => {
   return (
     <CardContainer>
@@ -28,7 +29,7 @@ export const Card = () => {
         </Price>
         <button>
           <img
-            src="./src/assets/images/icon-cart.svg"
+            src={cartIcon}
             alt=""
           />
           Add to Cart
