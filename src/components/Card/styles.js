@@ -8,11 +8,11 @@ export const CardContainer = styled.article`
   overflow: hidden;
   border-radius: 15px;
   background-color: ${(props) => props.theme.white};
-  & .desktop-img {
+  .desktop-img {
     width: 100%;
     object-fit: cover;
   }
-  & .mobile-img {
+  .mobile-img {
     display: none;
   }
   @media (max-width: 768px) {
