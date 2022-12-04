@@ -6,12 +6,12 @@ export const Card = () => {
     <CardContainer>
       <img
         className="desktop-img"
-        src="../src/assets/images/image-product-desktop.jpg"
+        src="./src/assets/images/image-product-desktop.jpg"
         alt=""
       />
       <img
         className="mobile-img"
-        src="../src/assets/images/image-product-mobile.jpg"
+        src="./src/assets/images/image-product-mobile.jpg"
         alt=""
       />
       <Content>
