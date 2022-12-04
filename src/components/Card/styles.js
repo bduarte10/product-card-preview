@@ -8,19 +8,19 @@ export const CardContainer = styled.article`
   overflow: hidden;
   border-radius: 15px;
   background-color: ${(props) => props.theme.white};
-  .desktop-img {
+  .desktop {
     width: 100%;
     object-fit: cover;
   }
-  .mobile-img {
+  .mobile {
     display: none;
   }
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
-    .desktop-img {
+    .desktop {
       display: none;
     }
-    .mobile-img {
+    .mobile {
       display: block;
       width: 100%;
       object-fit: cover;

@@ -1,19 +1,19 @@
 import React from 'react'
 import { CardContainer, Content, Price } from './styles'
-
+import desktopImg from '../../assets/images/image-product-desktop.jpg'
+import mobileImg from '../../assets/images/image-product-mobile.jpg'
 export const Card = () => {
   return (
     <CardContainer>
       <img
-        className="desktop-img"
-        src="./src/assets/images/image-product-desktop.jpg"
+        className="desktop"
+        src={desktopImg}
         alt=""
       />
 
       <img
-        className="mobile-img"
-        src="./src/assets/images/image-product-mobile.jpg"
-        alt=""
+        className="mobile"
+        src={mobileImg}
       />
       <Content>
         <span>Perfume</span>
