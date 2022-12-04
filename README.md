@@ -42,4 +42,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [Bruno Duarte](https://brunoduarte.dev.com)
+- Website - [Bruno Duarte](https://brunoduarte.dev.br)
