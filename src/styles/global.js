@@ -27,8 +27,9 @@ export const GlobalStyle = createGlobalStyle`
   font-size: 0.875rem;
  }
  h1,h2,h3,h4{
-  font-family: 'Fraunces' serif;
- }
+  font-family: 'Fraunces', serif;
+  
+}
  
  
  
